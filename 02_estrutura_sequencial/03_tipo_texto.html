@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto</title>
+</head>
+<body>
+    <script>
+        let escola = "Senai" //S=0, E=1, N=2, A=3, I=4
+        console.log(escola.indexOf("e")) //identifica se dentro da variavel existe o caracter digitado, no caso toda variavel string possui um indice começando do 0, ou seja, se meu String tem 5 posições, ele irá até o indice 4
+        console.log(escola.indexOf("y")) //Caso não exista este indice, ele irá mostrar -1
+
+        console.log("Escola ".concat(escola).concat("!"))
+        console.log("Escola "+escola+("!"))
+        console.log(`Escola ${escola}!`)//template string (``) crase
+
+        console.log(escola.replace("a", "@")) //Ele substitui um valor por outro
+        
+    </script>
+</body>
+</html>
