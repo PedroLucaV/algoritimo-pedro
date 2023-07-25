@@ -8,6 +8,29 @@
 </head>
 <body>
     <script>
+        let nota1 = 1.0 //existem 2 tipos númericos: inteiro e real, caso esteja após o . 0, ele ignorará e entenderá como inteiro
+        let nota2 = 2.6
+        //let nota2 = parseFloat(prompt("Digite a nota 2"))
+        //let nota2 = Number(prompt("Digite a nota 2"))
+
+        console.log(typeof nota1)
+        console.log(typeof nota2)
+        console.log(nota1,nota2)
+
+        console.log(Number.isInteger(nota1))
+        console.log(Number.isInteger(nota2))
+
+        let total = nota1/nota2
+        console.log(total.toFixed(2)) //toFixed diz quantos números haverá depois do ponto
+
+
+        /*************************CUIDADO************************/
+        console.log(7/0)
+        console.log("6"/2) //Qualquer outro operador irá realizar as operações aritimeticas
+        console.log("6"+2) //O + serve para concatenar string com variaveis e outros valores
+        console.log(0.1+0.2) //Algumas linguagens de programação tem uns problemas com variaveis flutuantes, e no JS o único encontrado foi o 0.1+0.7 e o 0.1+0.2
+        console.log("6 texto 6"/8)//Caso eu use um operador com um texto ele irá dar um NaN, Not a Number, mesmo se tiver um número antes ou depois do texto
+        
         
     </script>
 </body>
