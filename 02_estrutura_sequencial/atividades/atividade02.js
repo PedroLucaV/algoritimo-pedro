@@ -17,4 +17,4 @@ let entrada =  valor / 2
 let parcelas = entrada / 12
 
 //3º Mostrar o resultado
-document.write(`Nome do Modelo: ${modelo}, entrada de: R$${entrada}, em 12 parcelas de R$${parcelas}`)
+document.write(`Nome do Modelo: ${modelo} <br> Possui um valor de: R$${valorNum}<br> A entrada de: R$${entrada} e o resto é 12 parcelas de R$${parcelas}`)
