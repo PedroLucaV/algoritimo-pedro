@@ -12,5 +12,5 @@ if(media <= 10){
         alert(`O Aluno foi reprovado com uma média de ${media}`)
     }
 }else{
-    alert("Não foi possivel calcular, escolha uma nota entre 1 e 10")
+    alert("Não foi possivel calcular, a média deu mais que 10")
 }
