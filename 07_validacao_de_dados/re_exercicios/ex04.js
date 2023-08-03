@@ -1,31 +1,37 @@
 let bairro = prompt("Qual seu bairro?")
 
+bairro = bairro.toUpperCase()
+bairro = bairro.replace(" ", "-")
+
 switch (bairro) {
-    case 'Antares'|| 'antares':
+    case 'ANTARES':
         alert(`O Frete para ${bairro} ficou de R$ 7,00`)
         break;
 
-    case 'Barro Duro'|| 'barro duro'|| 'Barro duro':
+    case 'BARRO-DURO':
         alert(`O Frete para ${bairro} ficou de R$ 5,00`)
         break;
 
-    case 'Bebedouro'|| 'bebedouro':
+    case 'BEBEDOURO':
         alert(`O Frete para ${bairro} ficou de R$ 8,00`)
         break;
 
-    case 'Benedito Bentes'|| 'benedito bentes'|| 'Benedito bentes':
+    case 'BENEDITO-BENTES':
         alert(`O Frete para ${bairro} ficou de R$ 6,00`)    
         break;
 
-    case 'Centro'|| 'centro':
+    case 'CENTRO':
         alert(`O Frete para ${bairro} ficou de R$ 10,00`)
         break;
 
-    case 'Clima Bom'|| 'clima bom'|| 'Clima bom':
+    case 'CLIMA-BOM':
         alert(`O Frete para ${bairro} ficou de R$ 4,00`)
         break;
     
-    case 'Pajuçara'|| 'pajuçara'|| 'Ponta Verde'|| 'Ponta verde'|| 'ponta verde'|| 'Jatiuca'|| 'Jatiúca'|| 'jatiuca'|| 'jatiúca':
+    case 'PAJUÇARA':
+        case 'PONTA-VERDE' :
+        case 'JATIUCA' :
+        case 'JATIÚCA':
         alert(`O Frete para ${bairro} ficou de R$ 15,00`)
         break;
 
