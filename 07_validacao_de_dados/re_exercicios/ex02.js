@@ -23,12 +23,13 @@ let media = (nota1+nota2+nota3+nota4)/4
 
 if(media <= 10){
     if(media >= 7){
-        alert(`O Aluno foi aprovado com uma média de ${media}`)
+        alert(`O Aluno foi aprovado com uma média de ${media.toFixed(2)}`)
     }else if(media < 7){
-        alert(`O Aluno foi reprovado com uma média de ${media}`)
+        alert(`O Aluno foi reprovado com uma média de ${media.toFixed(2)}`)
     }
 }else{
     alert("Não foi possivel calcular, a média deu mais que 10")
+    location.reload()
 }
 
 /*
