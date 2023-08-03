@@ -3,8 +3,10 @@ let horaFR = 0
 
 if (horaBR >= 19){
     horaFR = (horaBR + 5) - 24
+    horaFR = horaFR.toFixed(2)
     alert(horaFR+" Horas na França!")
 }else{
     horaFR = (horaBR + 5)
+    horaFR = horaFR.toFixed(2)
     alert(horaFR+" Horas na França!")
 }
