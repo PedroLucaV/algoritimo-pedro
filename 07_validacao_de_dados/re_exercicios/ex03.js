@@ -1,6 +1,11 @@
 let sexo = prompt("Informe seu sexo (masculino ou feminino):")
 let altura = parseFloat(prompt("Informe sua altura em metros:"))
 
+if(altura === 0 || isNaN(altura)){
+    alert(`Não foi possivel processar o valor ${altura}`)
+    location.reload()
+}
+
 let pesoIdeal = 0
 if (sexo == "masculino" || sexo == "Masculino"){
     pesoIdeal = 22 * (Math.pow(altura, 2))
