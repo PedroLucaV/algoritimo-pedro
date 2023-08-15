@@ -19,7 +19,4 @@ function calc(){
         }
         msg.innerHTML = `Seu peso ideal sendo ${genero} com essa altura é de: ${alt}`
     }
-
-    
-
 }
