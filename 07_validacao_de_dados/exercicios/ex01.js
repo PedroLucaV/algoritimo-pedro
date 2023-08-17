@@ -4,7 +4,7 @@ let horaFR = 0
 if(isNaN(horaBR) || horaBR < 0){
     alert("Informe um valor númerico maior ou igual a 0!!!")
     location.reload()
-}else if(horaBR > 24){
+}else if(horaBR > 24){e
     alert("Informe um valor menor que 24!!!")
     location.reload()
 }else{

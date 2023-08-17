@@ -3,6 +3,7 @@ let sqrt = Math.sqrt(n1)
 
 if (n1 === 0 || n1 < 0 || isNaN(n1)){
     alert("Não foi possivel calcular o valor, digite um número maior que 0!")
+    location.reload()
 }else{
     if (Number.isInteger(sqrt)){
         alert(`A Raiz de ${n1} é igual a ${sqrt} sendo uma raiz perfeita!`)
