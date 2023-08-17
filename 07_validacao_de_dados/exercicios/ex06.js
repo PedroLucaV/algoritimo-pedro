@@ -1,4 +1,4 @@
-let lado1 = Number(prompt("Digite a medida do primeiro lado"))
+/*let lado1 = Number(prompt("Digite a medida do primeiro lado"))
 let lado2 = Number(prompt("Digite a medida do segundo lado"))
 let lado3 = Number(prompt("Digite a medida do terceiro lado"))
 let arr = [lado1, lado2, lado3]
@@ -26,8 +26,7 @@ if(isNaN(arr)){
         }
     }
 }
-
-/*
+*/
 let lado1 = Number(prompt("Digite a medida do primeiro lado"))
 if (isNaN(lado1) || lado1 <=0){
     do{
@@ -72,4 +71,4 @@ if(lado1 + lado2 < lado3 || lado1 + lado3 < lado2 || lado2 + lado3 < lado1){
     }else{
         alert("Formou um triangulo do tipo Escaleno!!!")
     }
-}*/
+}
