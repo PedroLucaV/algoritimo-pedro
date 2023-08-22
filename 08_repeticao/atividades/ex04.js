@@ -43,7 +43,7 @@ do{
 
     }if(numero % 2 === 0 && numero !== 0){
         let numeroF = numero * 2
-        if(confirm(`O Valor ${numero} foi duplicado para ${numeroF}`)){
+        if(alert(`O Valor ${numero} foi duplicado para ${numeroF}`)){
             valor = `${numero} foi dubplicado para ${numeroF} <br>`
             document.write(valor)
             continue
@@ -52,7 +52,7 @@ do{
         }
     }else if(numero %2 !== 0){
         let numeroF = numero * 3
-        if(confirm(`O Valor ${numero} foi triplicado para ${numeroF}`)){
+        if(alert(`O Valor ${numero} foi triplicado para ${numeroF}`)){
             valor = `${numero} foi triplicado para ${numeroF} <br>`
             document.write(valor)
             continue
