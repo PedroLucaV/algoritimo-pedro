@@ -5,3 +5,9 @@ while(numero != 8){
     numero = Math.floor(Math.random() * 9)
 }
 document.write(`Contador = ${numero}`)
+
+for(let i = 1; i<=10; i++){
+    console.log("valor de"+i)
+}
+
+console.log(`Valor de i: ${i} para sair do laco`)
