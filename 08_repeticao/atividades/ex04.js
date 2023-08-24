@@ -31,13 +31,16 @@ while(numero > 0 && Number.isInteger(numero)){
 do{
     let numero = Number(prompt("Digite um número"))
 
-    if(isNaN(numero) || numero === 0){
-        let sair = confirm("Confirma a saida?")
-        if(sair == true){
-            alert("Operação cancelada!!!")
-            break
-        }else{
-            continue
+    if(isNaN(numero)){
+        numero = 0
+        if(numero == 0){
+            let sair = confirm("Confirma a saida?")
+            if(sair == true){
+                alert("Operação cancelada!!!")
+                break
+            }else{
+                continue
+            }
         }
     }else{
 
