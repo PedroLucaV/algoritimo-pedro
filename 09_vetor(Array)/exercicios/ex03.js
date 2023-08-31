@@ -3,7 +3,7 @@ let c = 0
 
 do{
     lista[c] = prompt("Me informe um item para ser adicionado a lista")
-    if(isNaN(lista[c])){
+    if(lista[c] != "SAIR"){ 
         document.write(`${lista[c]} <br>`)
         c++
     }else{
