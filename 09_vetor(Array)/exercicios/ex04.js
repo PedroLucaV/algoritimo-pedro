@@ -9,20 +9,14 @@ let arr2 = []
 let arr3 = []
 
 let c = 0
-let a = 0
 let d = 0
 let b = 0
-let e = 0
 
 do{
-    arr1[c] = Number(prompt(`Me informe um número para ser alocado a posição ${c}`))
+    arr1[c] = Number(prompt(`Me informe um número para ser alocado a posição ${c} do primeiro vetor`))
+    arr2[c] = Number(prompt(`Me informe um número para ser alocado a posição ${c} do segundo vetor`))
     c++
 }while(c<10)
-
-do{
-    arr2[a] = Number(prompt(`Me informe um número para ser alocado a posição ${a}`))
-    a++
-}while(a<10)
 
 do{
     arr3[d] = arr1[b]
