@@ -1,3 +1,5 @@
+//Faça um programa que receba o gabarito, corrija a prova de certa quantia de alunos e depois mostre o percentual de aprovados!
+
 let corretas = []
 let aluno = []
 let resposta
@@ -18,7 +20,7 @@ for(let i = 0; i < qntAluno; i++){
         if(resposta == corretas[j]){
             notaAl +=1
         }else{
-            
+
         }
     }
     console.log(`Nota do aluno ${i} é igual a = ${notaAl}`)
