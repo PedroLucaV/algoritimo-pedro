@@ -37,7 +37,11 @@ for(let i = 0; i<aluno.length; i++){
 }
 
 for(let i = 0; i < aluno.length; i++){
-    document.write(`Matricula ${aluno[i]}, Nota: ${nota[i]} <br>`)
+    if(nota[i] >= 6){
+        document.write(`Matricula ${aluno[i]}, Nota: ${nota[i]}, Status: Aprovado!<br>`)
+    }else{
+        document.write(`Matricula ${aluno[i]}, Nota: ${nota[i]}, Status: Reprovado!<br>`)
+    }
 }
 
 porcentagem = (aprovados/aluno.length)*100
