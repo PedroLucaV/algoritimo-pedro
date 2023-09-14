@@ -11,7 +11,7 @@ do{
     tempo[c] = prompt(`Há quanto tempo (em anos) o funcionario ${nomes[c]} trabalha na empresa?`)
     document.write(`<p>Nome: ${nomes[c]}; Salario: R$${Number(salarios[c]).toFixed(2)}; Tempo Trabalhando: ${tempo[c]}  </p>`)
     c++
-}while(c<2)
+}while(c<5)
 c = 0
 
 document.write("<hr>")
@@ -30,7 +30,7 @@ do{
         document.write(`O Funcionario ${nomes[c]} não teve aumento <br>`)
     }
     c++
-}while(c < 2)
+}while(c < 5)
 
 document.write(`<hr>`)
 document.write("<h1>Tabela de Funcionarios Com Aumento:</h1>")
@@ -50,4 +50,4 @@ do{
         }
     }
     c++
-}while(c<2)
+}while(c<5)
