@@ -20,7 +20,7 @@ function calcDesconto(seguidores, post){
 let produto = prompt("Qual o nome do produto?")
 let valorProduto = Number(prompt(`Qual o valor de ${produto}?`))
 let arroba = prompt("Me informe seu @ do insta")
-let seguidores = prompt("Me informe a quantia de seguidores que você possui")
+let seguidores = Number(prompt("Me informe a quantia de seguidores que você possui"))
 let posts = prompt('Qual o tipo de postagem?\n1 - Storys\n2 - Rells\n3 - Ambos (Caso seja em ambos, será o desconto somente- de Rells!)')
 
 let porcentagem = calcDesconto(seguidores, posts)/100
