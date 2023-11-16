@@ -13,8 +13,11 @@
     </header>
     <section>
         <div>
+            <p>Nome: 
+                <input type="text" name="nome" id="nome" placeholder="Ex: José Maria">
+            </p>
             <p>Altura: 
-                <input type="number" name="alt" id="alt">
+                <input type="number" name="alt" id="alt" placeholder="Ex: 1.70">
             </p>
             <p>Sexo:
                 <input type="radio" name="sex" id="sexMasc" checked>
@@ -24,6 +27,7 @@
             </p>
             <p>
                 <input type="button" value="Calcular" onclick="calc()">
+                <input type="button" value="Limpar" onclick="limp()">
             </p>
         </div>
         <div id="res">
